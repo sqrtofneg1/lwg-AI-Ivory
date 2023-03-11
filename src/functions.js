@@ -1,5 +1,8 @@
+/**
+ * Misc functions
+ */
 function chat(msg) {
-  let message = getColour() + ": " + msg
+  let message = "Ivory - " + getColour() + ": " + msg
   scope.chatMsg(message);
 }
 
